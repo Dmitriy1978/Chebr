@@ -140,16 +140,16 @@ class Registration(unittest.TestCase):
         driver.get ("http://chebr.com/administration/ru/")
         time.sleep ( 10 )
         driver.find_element_by_id ( "_login" ).clear ()
-        driver.find_element_by_id ( "_login" ).send_keys (Name_adm.logina)
+        driver.find_element_by_id ( "_login" ).send_keys ( "root" )
         driver.find_element_by_id ( "_password" ).clear ()
-        driver.find_element_by_id ( "_password" ).send_keys (Name_adm.passworda)
+        driver.find_element_by_id ( "_password" ).send_keys ( "1stEnter" )
         driver.find_element_by_id ( "submit" ).click ()
         driver.find_element_by_link_text ( "Users" ).click ()
         time.sleep ( 10 )
         driver.find_element_by_xpath("//a[contains(text(), 'dmitriy117@i.ua')]//parent::span//parent::td//parent::tr//span[@class = 'glyphicon glyphicon-remove']" ).click ()
-        time.sleep(15)
-        self.assertRegexpMatches(self.close_alert_and_get_its_text(), r"^Are you sure to delete selected row\(s\)[\s\S]$" )
-        time.sleep ( 5 )
+        time.sleep(10)
+        self.assertRegexpMatches( self.close_alert_and_get_its_text(), r"^Are you sure to delete selected row\(s\)[\s\S]$" )
+        time.sleep(5)
 
 
 if __name__ == "__main__":
