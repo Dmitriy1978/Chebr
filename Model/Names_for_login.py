@@ -21,8 +21,12 @@ class Name_adm:
         self.passworda = passworda
 
 
+
 class Name_conf:
     def __init__(self, emaillogin, passwordf):
         self.emaillogin = emaillogin
         self.passwordf = passwordf
+
+
+
 

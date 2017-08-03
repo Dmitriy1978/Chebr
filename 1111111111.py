@@ -7,46 +7,38 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re
 
-class DeleteUser(unittest.TestCase):
+class 1111111111(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
-        self.base_url = "http://chebr.com/administration/ru/"
+        self.base_url = "http://chebr.com/"
         self.verificationErrors = []
         self.accept_next_alert = True
     
-    def test_delete_user(self):
+    def test_1111111111(self):
         driver = self.driver
-        self.delete_user ( driver )
-
-    def delete_user(self, driver):
-        driver.get ( self.base_url )
-        time.sleep ( 10 )
-        driver.find_element_by_id ( "_login" ).clear ()
-        driver.find_element_by_id ( "_login" ).send_keys ( "root" )
-        driver.find_element_by_id ( "_password" ).clear ()
-        driver.find_element_by_id ( "_password" ).send_keys ( "1stEnter" )
-        driver.find_element_by_id ( "submit" ).click ()
-        driver.find_element_by_link_text ( "Users" ).click ()
-        time.sleep ( 10 )
-        driver.maximize_window()
-        driver.find_element_by_xpath("//a[contains(text(), 'dmitriy117@i.ua')]//parent::span//parent::td//parent::tr//span[@class = 'glyphicon glyphicon-remove']" ).click ()
-        time.sleep ( 10 )
-        self.assertRegexpMatches(self.close_alert_and_get_its_text(), r"^Are you sure to delete selected row\(s\)[\s\S]$" )
-        time.sleep ( 5 )
-
+        driver.get(self.base_url + "/ru/profile/products?action=edit")
+        driver.find_element_by_link_text(u"Товары для детей").click()
+        driver.find_element_by_id("content_title").click()
+        driver.find_element_by_id("instance_price").click()
+        driver.find_element_by_id("instance_quantity").click()
+        driver.find_element_by_css_selector("div.jq-selectbox__select-text").click()
+        driver.find_element_by_id("content_text").click()
+        driver.find_element_by_css_selector("#entity_countryId-styler > div.jq-selectbox__select > div.jq-selectbox__select-text").click()
+        driver.find_element_by_css_selector("#entity_countryId-styler > div.jq-selectbox__dropdown > ul > li.sel.selected").click()
+        driver.find_element_by_name("file").click()
+        # ERROR: Caught exception [Error: locator strategy either id or name must be specified explicitly.]
+    
     def is_element_present(self, how, what):
         try: self.driver.find_element(by=how, value=what)
         except NoSuchElementException as e: return False
         return True
-
+    
     def is_alert_present(self):
-        try:
-            self.driver.switch_to_alert ()
-        except NoAlertPresentException as e:
-            return False
+        try: self.driver.switch_to_alert()
+        except NoAlertPresentException as e: return False
         return True
-
+    
     def close_alert_and_get_its_text(self):
         try:
             alert = self.driver.switch_to_alert()
@@ -57,7 +49,7 @@ class DeleteUser(unittest.TestCase):
                 alert.dismiss()
             return alert_text
         finally: self.accept_next_alert = True
-
+    
     def tearDown(self):
         self.driver.quit()
         self.assertEqual([], self.verificationErrors)
