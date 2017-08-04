@@ -15,8 +15,8 @@
       <file leaf-file-name="Application.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fixture/Application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="374">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -27,8 +27,8 @@
       <file leaf-file-name="Prodhelper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fixture/Prodhelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="93" column="5" lean-forward="false" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -36,23 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_modify_prod.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test1/test_modify_prod.py">
+      <file leaf-file-name="registrationHelp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fixture/registrationHelp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="99" lean-forward="false" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="28" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_add_new_product.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test1/test_add_new_product.py">
+      <file leaf-file-name="delete_product.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test1/delete_product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="107" lean-forward="false" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
+            <state relative-caret-position="0">
+              <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
               <folding>
                 <element signature="e#25#62#0" expanded="true" />
               </folding>
@@ -63,20 +63,20 @@
       <file leaf-file-name="Names_for_login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/Names_for_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Delete_user.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/Delete_user.py">
+      <file leaf-file-name="test_add_new_product.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test1/test_add_new_product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="8" column="128" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="130" />
               <folding>
-                <element signature="e#24#54#0" expanded="true" />
+                <element signature="e#25#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,12 +92,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Fixture/session.py">
+      <file leaf-file-name="session_.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Fixture/session_.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,10 +107,22 @@
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="379">
+              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="44" />
               <folding>
                 <element signature="e#26#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_modify_prod.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test1/test_modify_prod.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,19 +155,23 @@
         <option value="$PROJECT_DIR$/Test_1/Application.py" />
         <option value="$PROJECT_DIR$/Test_1/registration.py" />
         <option value="$PROJECT_DIR$/Application.py" />
-        <option value="$PROJECT_DIR$/Fixture/session.py" />
         <option value="$PROJECT_DIR$/Test/Delete_user.py" />
         <option value="$PROJECT_DIR$/Fixture/registrationHelp.py" />
         <option value="$PROJECT_DIR$/Test/conftest.py" />
         <option value="$PROJECT_DIR$/Test/registration.py" />
-        <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/Test/add_new_product.py" />
-        <option value="$PROJECT_DIR$/Fixture/session_.py" />
-        <option value="$PROJECT_DIR$/Fixture/Application.py" />
-        <option value="$PROJECT_DIR$/Model/Names_for_login.py" />
         <option value="$PROJECT_DIR$/Model/Text_prod.py" />
+        <option value="$PROJECT_DIR$/Fixture/Application.py" />
+        <option value="$PROJECT_DIR$/Test1/test_registration.py" />
+        <option value="$PROJECT_DIR$/Model/Names_for_login.py" />
+        <option value="$PROJECT_DIR$/Fixture/session.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/Fixture/session_.py" />
         <option value="$PROJECT_DIR$/Test1/test_modify_prod.py" />
+        <option value="$PROJECT_DIR$/Test1/delet_product.py" />
+        <option value="$PROJECT_DIR$/Test1/test_add_new_product.py" />
         <option value="$PROJECT_DIR$/Fixture/Prodhelper.py" />
+        <option value="$PROJECT_DIR$/Test1/delete_product.py" />
       </list>
     </option>
   </component>
@@ -299,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_modify_prod.py">
+  <component name="RunManager" selected="Python tests.py.test in delete_product.py">
     <configuration default="false" name="py.test in Test1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,22 +331,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/Test1&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in Test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Chebr" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
@@ -377,6 +379,22 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/Test1/test_add_new_product.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in delete_product.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Chebr" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test1/delete_product.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
@@ -447,18 +465,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in Test1" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in Test" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in registration.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_prod.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_add_new_product.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in registration.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_prod.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_add_new_product.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in delete_product.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_prod.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_add_new_product.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in Test1" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in registration.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in Test" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in delete_product.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_modify_prod.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_add_new_product.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in Test1" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in registration.py" />
       </list>
     </recent_temporary>
   </component>
@@ -479,50 +497,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_modify_prod_py - 2017.08.02 at 17h 22m 25s.xml">
-      <configuration name="py.test in test_modify_prod.py" configurationId="tests" />
+    <history-entry file="py_test_in_delete_product_py - 2017.08.04 at 14h 07m 58s.xml">
+      <configuration name="py.test in delete_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modify_prod_py - 2017.08.02 at 17h 25m 25s.xml">
-      <configuration name="py.test in test_modify_prod.py" configurationId="tests" />
+    <history-entry file="py_test_in_delete_product_py - 2017.08.04 at 14h 15m 59s.xml">
+      <configuration name="py.test in delete_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modify_prod_py - 2017.08.02 at 17h 29m 08s.xml">
-      <configuration name="py.test in test_modify_prod.py" configurationId="tests" />
+    <history-entry file="py_test_in_delete_product_py - 2017.08.04 at 14h 19m 38s.xml">
+      <configuration name="py.test in delete_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modify_prod_py - 2017.08.02 at 17h 32m 17s.xml">
-      <configuration name="py.test in test_modify_prod.py" configurationId="tests" />
+    <history-entry file="py_test_in_delete_product_py - 2017.08.04 at 14h 32m 04s.xml">
+      <configuration name="py.test in delete_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modify_prod_py - 2017.08.02 at 17h 37m 19s.xml">
-      <configuration name="py.test in test_modify_prod.py" configurationId="tests" />
+    <history-entry file="py_test_in_delete_product_py - 2017.08.04 at 14h 36m 31s.xml">
+      <configuration name="py.test in delete_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modify_prod_py - 2017.08.02 at 18h 17m 20s.xml">
-      <configuration name="py.test in test_modify_prod.py" configurationId="tests" />
+    <history-entry file="py_test_in_delete_product_py - 2017.08.04 at 14h 43m 54s.xml">
+      <configuration name="py.test in delete_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modify_prod_py - 2017.08.02 at 18h 29m 00s.xml">
-      <configuration name="py.test in test_modify_prod.py" configurationId="tests" />
+    <history-entry file="py_test_in_delete_product_py - 2017.08.04 at 14h 51m 47s.xml">
+      <configuration name="py.test in delete_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modify_prod_py - 2017.08.02 at 18h 36m 43s.xml">
-      <configuration name="py.test in test_modify_prod.py" configurationId="tests" />
+    <history-entry file="py_test_in_delete_product_py - 2017.08.04 at 14h 54m 39s.xml">
+      <configuration name="py.test in delete_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modify_prod_py - 2017.08.02 at 18h 50m 51s.xml">
-      <configuration name="py.test in test_modify_prod.py" configurationId="tests" />
+    <history-entry file="py_test_in_delete_product_py - 2017.08.04 at 15h 19m 50s.xml">
+      <configuration name="py.test in delete_product.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_modify_prod_py - 2017.08.02 at 19h 07m 34s.xml">
-      <configuration name="py.test in test_modify_prod.py" configurationId="tests" />
+    <history-entry file="py_test_in_delete_product_py - 2017.08.04 at 15h 34m 38s.xml">
+      <configuration name="py.test in delete_product.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915523" sideWeight="0.50208336" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39915523" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39915523" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -530,7 +549,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -640,14 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/http/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4250">
@@ -744,26 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fixture/registrationHelp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fixture/session_.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/add_new_product.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -798,48 +788,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#26#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fixture/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/Delete_user.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="32" />
           <folding>
-            <element signature="e#24#54#0" expanded="true" />
+            <element signature="e#24#54#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Names_for_login.py">
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="-33">
+          <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test1/test_registration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fixture/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test1/delet_product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fixture/Application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="374">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#26#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fixture/session_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test1/test_modify_prod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -852,20 +888,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test1/test_modify_prod.py">
+    <entry file="file://$PROJECT_DIR$/Model/Names_for_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="99" lean-forward="false" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fixture/registrationHelp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="28" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fixture/Prodhelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="93" column="5" lean-forward="false" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
@@ -875,7 +919,17 @@
     <entry file="file://$PROJECT_DIR$/Test1/test_add_new_product.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="107" lean-forward="false" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
+          <caret line="8" column="128" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="130" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test1/delete_product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding>
             <element signature="e#25#62#0" expanded="true" />
           </folding>

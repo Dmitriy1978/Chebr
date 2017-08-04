@@ -30,7 +30,7 @@ class New_prod(unittest.TestCase):
         driver.find_element_by_xpath ( "//input[@id='instance_quantity']").clear ()
         driver.find_element_by_xpath ( "//input[@id='instance_quantity']").send_keys ( Text_prod.quantity )
 
-        driver.find_element_by_xpath ( "//div[contains(text(), 'руб.')]").click ()
+        driver.find_element_by_xpath ( "//div[@class='b-form__control']//div[@id='instance_currencyId-styler']//div[2]").click ()
         driver.find_element_by_xpath ( "//li[contains(text(), 'грн')]").click ()
 
 
@@ -38,8 +38,9 @@ class New_prod(unittest.TestCase):
         driver.find_element_by_xpath ( "// textarea[@id='content_text']" ).clear ()
         driver.find_element_by_xpath ( "// textarea[@id='content_text']" ).send_keys ( Text_prod.description)
 
-        driver.find_element_by_xpath ( "//div[@id='content_isActive-styler']" ).click ()
-        driver.find_element_by_xpath ( "//div[contains(text(), 'United States')]" ).click ()
+        #driver.find_element_by_xpath ( "//div[@id='content_isActive-styler']" ).click ()
+
+        driver.find_element_by_xpath ( "//select[@id='entity_countryId']" ).click ()
         driver.find_element_by_xpath ( "//li[contains(text(), 'Canada')]" ).click ()
 
         driver.find_element_by_xpath ( "//div[@id='properties_obschaja-ploschad-styler']" ).click ()
@@ -56,9 +57,7 @@ class New_prod(unittest.TestCase):
     def modify_prod(self, Modify_prod):
         driver = self.app.driver
         #entering cabinet
-        driver.find_element_by_xpath ( "//a[@class='b-mainNavigation__link' and contains(text(),'Кабинет')]").click ()
-        driver.find_element_by_xpath ( "//span[contains(text(),'Мои товары')]" ).click ()
-        driver.find_element_by_xpath ( "//a[@class='b-profileFilterTabs__link' and contains(text(),'Созданы')]").click ()
+        self.enter_created_prod ()
         driver.find_element_by_xpath ( "//a[contains(text(),'Изменить')]" ).click ()
 
         #change kind of property
@@ -80,7 +79,7 @@ class New_prod(unittest.TestCase):
         driver.find_element_by_xpath ( "//input[@id='instance_quantity']" ).send_keys ( Modify_prod.quantity )
 
         # change quantity of currency
-        driver.find_element_by_xpath ( "//div[contains(text(), 'грн')]" ).click ()
+        driver.find_element_by_xpath ( "//div[@class='b-form__control']//div[@id='instance_currencyId-styler']//div[2]" ).click ()
         driver.find_element_by_xpath ( "//li[contains(text(), 'руб.')]" ).click ()
 
         # change description of property
@@ -91,7 +90,7 @@ class New_prod(unittest.TestCase):
         driver.find_element_by_xpath ( "//div[@id='content_isActive-styler']" ).click ()
 
         # change country of property
-        driver.find_element_by_xpath ( "//div[contains(text(), 'Canada')]" ).click ()
+        driver.find_element_by_xpath ( "//select[@id='entity_countryId']" ).click ()
         driver.find_element_by_xpath ( "//li[contains(text(), 'American Samoa')]" ).click ()
 
         # change square of property
@@ -108,9 +107,58 @@ class New_prod(unittest.TestCase):
         driver.find_element_by_xpath ( "//input[@value='Сохранить']" ).click ()
         driver.maximize_window ()
 
+    def enter_created_prod(self):
+        driver = self.app.driver
+        if not (driver.current_url.endswith("/?section=inactive") and len(driver.find_elements_by_xpath("//a[@class='b-button -br_blue -fl_right']"))>0):
+            driver.find_element_by_xpath ( "//a[@class='b-mainNavigation__link' and contains(text(),'Кабинет')]" ).click ()
+            driver.find_element_by_xpath ( "//span[contains(text(),'Мои товары')]" ).click ()
+            driver.find_element_by_xpath ( "//a[@class='b-profileFilterTabs__link' and contains(text(),'Созданы')]" ).click ()
+
     def change_field_value(self, Modify_prod):
         driver = self.app.driver
         if Modify_prod.description is not None:
             driver.find_element_by_xpath ( "// textarea[@id='content_text']" ).click ()
             driver.find_element_by_xpath ( "// textarea[@id='content_text']" ).clear ()
             driver.find_element_by_xpath ( "// textarea[@id='content_text']" ).send_keys ( Modify_prod.description )
+
+
+
+
+    def delete_prod(self):
+        driver = self.app.driver
+        #entering cabinet
+        self.enter_created_prod()
+        driver.find_element_by_xpath ( "//ul[@class='b-profileList']//li[1][@class='b-profileList__item']//a[@class='b-profileList__close']").click ()
+        self.assertRegexpMatches ( self.close_alert_and_get_its_text (), r"Вы уверены, что хотите удалить услугу?" )
+        time.sleep ( 5 )
+
+    def is_element_present(self, how, what):
+        try:
+            self.app.driver.find_element ( by=how, value=what )
+        except NoSuchElementException as e:
+            return False
+        return True
+
+    def is_alert_present(self):
+        try:
+            self.app.driver.switch_to_alert ()
+        except NoAlertPresentException as e:
+            return False
+        return True
+
+    def close_alert_and_get_its_text(self):
+        try:
+            alert = self.app.driver.switch_to_alert ()
+            alert_text = alert.text
+            if self.accept_next_alert:
+                alert.accept ()
+            else:
+                alert.dismiss ()
+            return alert_text
+        finally:
+            self.accept_next_alert = True
+
+    def count(self):
+        driver = self.app.driver
+        self.enter_created_prod ()
+        return len(driver.find_elements_by_xpath ( "//a[@class='b-profileList__close']"))

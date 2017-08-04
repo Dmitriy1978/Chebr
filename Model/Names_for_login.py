@@ -15,6 +15,12 @@ class Name_log:
         self.password = password
 
 
+class Name_log_user:
+    def __init__(self, firstname, lastname):
+        self.firstname = firstname
+        self.firstname = lastname
+
+
 class Name_adm:
     def __init__(self, logina, passworda):
         self.logina = logina
